@@ -1,0 +1,89 @@
+body {
+    background-color: #0a192f;
+}
+.smname {
+    color: rgb(100, 255, 218);
+    margin: 0px 0px 1px 3px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    box-sizing: inherit;
+    padding-top: 17em;
+    padding-bottom: 0em;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+}
+.lgname {
+    color: rgb(204, 214, 246);
+    font-weight: 600;
+    box-sizing: inherit;
+    padding-bottom: 0ex;
+    font-size: 70px;
+    line-height: 1.1;
+    margin: 0px;
+    font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+}
+
+.cmn-text {
+margin: 0px 0px 15px;
+color: rgb(136, 146, 176);
+line-height: 1.3;
+font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+font-size: 20px;
+}
+
+.about {
+position: relative;
+margin-bottom: 10px;
+padding-left: 20px;
+font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+font-size: 13px;
+color: rgb(136, 146, 176);
+box-sizing: inherit;
+list-style: outside none none;
+visibility: visible;
+line-height: 1.3;
+}
+.askills::before{
+    content: "▹";
+position: absolute;
+left: 0px;
+color: rgb(100, 255, 218);
+font-size: 14px;
+line-height: 12px;
+list-style: outside none none;
+font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+}
+
+
+
+.sub-heading{
+position: relative;
+display: flex;
+-moz-box-align: center;
+align-items: center;
+margin: 10px 0px 40px;
+width: 100%;
+white-space: nowrap;
+font-size: 32px;
+font-weight: 600;
+color: rgb(204, 214, 246);
+box-sizing: inherit;
+}
+.Style-mail{
+color: rgb(100, 255, 218);
+background-color: transparent;
+border: 1px solid rgb(100, 255, 218);
+border-radius: 3px;
+padding: 1.25rem 1.75rem;
+font-size: 14px;
+font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+line-height: 1;
+text-decoration: none;
+cursor: pointer;
+transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+margin-top: 50px;
+display: inline-block;
+text-decoration-skip-ink: auto;
+position: relative;
+box-sizing: inherit;
+}
