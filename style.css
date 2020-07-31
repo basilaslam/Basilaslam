@@ -1,6 +1,10 @@
 body {
     background-color: #0a192f;
 }
+.nav{
+    background-color: #0a192f;
+    
+}
 .smname {
     color: rgb(100, 255, 218);
     margin: 0px 0px 1px 3px;
@@ -8,7 +12,7 @@ body {
     font-weight: 600;
     line-height: 1.3;
     box-sizing: inherit;
-    padding-top: 17em;
+    padding-top: 16px;
     padding-bottom: 0em;
     font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
 }
@@ -17,7 +21,7 @@ body {
     font-weight: 600;
     box-sizing: inherit;
     padding-bottom: 0ex;
-    font-size: 70px;
+    font-size: 6vw;
     line-height: 1.1;
     margin: 0px;
     font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
@@ -86,4 +90,85 @@ display: inline-block;
 text-decoration-skip-ink: auto;
 position: relative;
 box-sizing: inherit;
+}
+.fit-about{
+    padding-top: 20rem;
+}
+.fit-heading{
+    padding-top: 15rem;
+}
+.about-style{
+position: relative;
+display: flex;
+align-items: center;
+margin: 10px 0px 40px;
+width: 100%;
+white-space: nowrap;
+font-size: 32px;
+font-weight: 600;
+color: rgb(204, 214, 246);
+box-sizing: inherit;
+}
+.containerT{
+    height: 10em;
+    position: relative
+}
+.containerT h4{
+    margin: 0;
+    font-size: 32px;
+font-weight: 600;
+color: rgb(204, 214, 246);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+
+}
+.containerT p{
+    margin: 0px 0px 15px;
+color: rgb(136, 146, 176);
+line-height: 1.3;
+font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.containerB{
+    height: 10em;
+    position: relative
+}
+
+.containerB a{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.icons{
+    height: 3rem;
+    width: 3rem;
+}
+.containerC{
+    height: 10em;
+    position: relative;
+    align-items: center;
+}
+.containerC .buttons{
+    padding-left: 11px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
 }
