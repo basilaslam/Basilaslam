@@ -6,10 +6,14 @@
     <title>Basil Aslam</title>
     <link rel="icon" href="/images/Icon.jpg" type="image/icon type">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header class="bg-info">
+    <header style="position: fixed; width: 100%; z-index: 1;">
         <div class="row text-white nav">
             <div class="col-md-6 col-9 p-3 pl-5">
                 <h2></h2>
@@ -18,23 +22,23 @@
             <div class="col-md-6 col-3 ">
                 <nav class="navbar navbar-expand-lg navbar-light nav .text-info">
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        
+
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                  
+
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                          <a class="nav-link  text-info" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link  text-info animate__animated animate__zoomIn" href="#Home">Home <span class="sr-only" >(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-info" href="#">About</a>
+                          <a class="nav-link text-info animate__animated animate__zoomIn" href="#About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info" href="#">Servieces</a>
+                            <a class="nav-link text-info animate__animated animate__zoomIn" href="#Skills">Skills</a>
                           </li>
                           <li class="nav-ite">
-                            <a class="nav-link text-info" href="#">Contact</a>
+                            <a class="nav-link text-info animate__animated animate__zoomIn" href="#Contact">Contact</a>
                           </li>
 
                       </ul>
@@ -48,81 +52,84 @@
 
     </header>
 
-    <section class="p-4">
+    <section class="p-4" id="Home">
         <div class="container fit-heading">
-            <p class="smname">hi, my name is </p>
-            <h1 class="lgname">Basil Aslam.</h1>
-          <h1 class="lgname">I build things for web.</h1>
+            <p class="smname animate__animated animate__fadeIn">hi, my name is </p>
+            <h1 class="lgname animate__animated animate__fadeIn">Basil Aslam.</h1>
+          <h1 class="lgname animate__animated animate__fadeIn">I build things for web.</h1>
           <hr>
-          <p class="cmn-text">I'm a Web Developer based in Kerala specializing in <br> building exceptional websites, Web applications, and everything <br> in between.</p>
+          <p class="cmn-text animate__animated animate__fadeIn delay-3s">I'm a Web Developer based in Kerala specializing in <br> building exceptional websites, Web applications, and everything <br> in between.</p>
 
           </div>
     </section>
-    <section>
+    <section id="About">
         <div class="container align-items-center fit-about">
           <div class="row">
             <div class="col-md-6">
-              <img src="/images/icon.png" alt="Loding..." class="img-rounded">
+              <img class="wow zoomin" src="/images/icon.png" alt="Loding..." class="img-rounded ">
 
             </div>
             <div class="col-md-6">
-              <h2 class="sub-heading" >About</h2>
-              <p class="cmn-text">Hello! I'm Brittany, a software engineer based in Boston, MA.
+              <h2 class="sub-heading smname animate__animated animate__fadeIn" >About</h2>
+              <p class="cmn-text animate__animated animate__fadeIn">Hello! I'm Brittany, a software engineer based in Boston, MA.
                 <br>
                 <br>
 
                 I enjoy creating things that live on the internet, whether that <br> be websites, applications, or anything in between. My goal is <br> to always build products that provide pixel-perfect, <br>a performant experiences.
                 <br>
                 <br>
-                
+
                 Here are a few technologies I've been working with recently:</p>
 
-                <ul class="about">
-                  <li class="askills">JavaScript</li> 
+                <ul class="about" id="Skills">
+                  <li class="askills">JavaScript</li>
                   <li class="askills">HTML</li>
-                   
+
             <li class="askills">CSS</li>
                    <li class="askills">Python</li>
                    <li class="askills">Django</li>
-                </ul>    
+                </ul>
 
             </div>
           </div>
         </div>
     </section>
-    <section>
+    <section id="Contact">
       <div class="containerT">
         <div class="touch">
-        <h4 class="getintouch">Get In Touch</h4>
+        <h4 class="getintouch smname animate__animated animate__fadeIn">Get In Touch</h4>
         <hr><hr><hr>
-         <p>Have any idea or a project</p>
+         <p class="smname animate__animated animate__fadeIn">Do you have any idea or a project?...</p>
       </div>
       </div>
     </section>
 
 
     <div class="containerB">
-      <a class="Style-mail" href="mailto:basilaslamnp@gmail.com">Get In Touch</a>
+      <a class="Style-mail text-info" href="mailto:basilaslamnp@gmail.com">Get In Touch</a>
      
       </button>
     </div>
+    <section>
+
+    </section>
 
 
 
     <footer>
       <div class="containerC">
-        <div class="buttons"> 
-         <a href="https://github.com/basilaslam"><img src="/images/Circle Black White/Github_2.svg" alt="loding..." class="icons"></a> 
+        <div class="buttons">
+         <a href="https://github.com/basilaslam"><img src="/images/Circle Black White/Github_2.svg" alt="loding..." class="icons"></a>
           <a href="https://www.linkedin.com/in/basil-aslam-954661126/"><img src="/images/Circle Black White/Linkedin_2.svg" alt="loding..." class="icons"></a>
           <a href="https://wa.me/+919446001964"><img src="/images/Circle Black White/WhatsApp_2.svg" alt="loding..." class="icons"></a>
           <a href="https://www.instagram.com/basilaslam_/"><img src="/images/Circle Black White/Instagram_2.svg" alt="loding..." class="icons"></a>
-          <h6 class="text-white pl-5">                 <hr>    Basil Aslam</h6>
+          <h6 class="text-info pl-5">                 <hr>    ©Basil Aslam</h6>
         </div>
       </div>
 
     </footer>
-    
-    
+
+  
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
