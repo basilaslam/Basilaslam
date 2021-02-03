@@ -404,6 +404,15 @@ section.counter__section > div h5{
     color: var(--fade);
 }
 
+
+section.work > p{
+    color: var(--ternary);
+    font-size: 8px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+}
 section.work .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
